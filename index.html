@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Quiz App</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+<h1>Answer The Following Questions!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">1. 10*5-(4+6)/2 = ?</p>
+<input id = "textbox" type = "number" name = "question1">
+
+<p class = "questions">2.Which one is framework of Jvascript</p>
+<input type = "radio" id = "mc" name = "question2" value = "Django"> Django<br>
+<input type = "radio" id = "mc" name = "question2" value = "React">React<br>
+
+<p class = "questions">3. Which one is programming language?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "HTML"> HTML<br>
+<input type = "radio" id = "mc" name = "question3" value = "Python"> Python<br>
+
+
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+</form>
+
+	<div id = "after_submit">
+	<p id = "number_correct"></p>
+	<p id = "message"></p>
+	<img id = "picture">
+    <h6>Hunter</h6>
+	</div>
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+
+
